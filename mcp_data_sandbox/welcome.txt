@@ -1,0 +1,10 @@
+Welcome to the MCP Sandbox!
+
+This is a test file in the sandbox directory. You can use the read_file, write_file, and list_directory tools to interact with this directory.
+
+Feel free to:
+1. Read this file
+2. Create new files
+3. List the directory contents
+
+The sandbox is configured to be a safe space for file operations.
