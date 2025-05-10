@@ -79,7 +79,7 @@ GEMINI_API_TOOLS_PAYLOAD = [{
 def call_gemini_api(messages, tools_payload=None): # Renamed 'tools' to 'tools_payload' for clarity
     """Call the Gemini API with messages and tools."""
     # Use a specific, generally available model endpoint
-    model_for_rest_api = "gemini-1.5-flash-latest" # Changed to a reliable GA model
+    model_for_rest_api = "gemini-2.0-flash" # Changed to a reliable GA model
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_for_rest_api}:generateContent?key={API_KEY}"
     
     payload = {
